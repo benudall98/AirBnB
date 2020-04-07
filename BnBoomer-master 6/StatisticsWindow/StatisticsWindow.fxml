@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<TabPane xmlns:fx="http://javafx.com/fxml/1" stylesheets="@../StatisticsWindow/stylesheet.css"
+         xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="StatisticsWindow.StatisticsController">
+    <tabs>
+        <Tab closable="false" text="Statistics">
+            <content>
+                <GridPane alignment="CENTER" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                          minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: WHITE;"
+                          vgap="5.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints/>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
+                    </rowConstraints>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+                    </padding>
+                    <children>
+                        <BorderPane minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0"
+                                    style="-fx-background-color: linear-gradient(to top left, #FF5A5F, #6a5acd) linear-gradient(to top right, #FF5A5F, #6a5acd);">
+                            <left>
+                                <Button fx:id="prevButton0" alignment="CENTER" contentDisplay="CENTER" maxHeight="120.0"
+                                        maxWidth="50.0" minHeight="120.0" minWidth="30.0" mnemonicParsing="false"
+                                        onMouseClicked="#prevButton0" prefHeight="120.0" prefWidth="40.0"
+                                        style="-fx-background-color: TRANSPARENT;" text="&lt;" textAlignment="CENTER"
+                                        textFill="WHITE" BorderPane.alignment="CENTER">
+                                    <BorderPane.margin>
+                                        <Insets left="5.0"/>
+                                    </BorderPane.margin>
+                                    <font>
+                                        <Font name="System Bold" size="18.0"/>
+                                    </font>
+                                </Button>
+                            </left>
+                            <right>
+                                <Button fx:id="nextButton0" alignment="CENTER" contentDisplay="CENTER" maxHeight="120.0"
+                                        maxWidth="50.0" minHeight="120.0" minWidth="30.0" mnemonicParsing="false"
+                                        onMouseClicked="#nextButton0" prefHeight="120.0" prefWidth="40.0"
+                                        style="-fx-background-color: TRANSPARENT;" text="&gt;" textAlignment="CENTER"
+                                        textFill="WHITE" BorderPane.alignment="CENTER">
+                                    <BorderPane.margin>
+                                        <Insets right="5.0"/>
+                                    </BorderPane.margin>
+                                    <font>
+                                        <Font name="System Bold" size="18.0"/>
+                                    </font>
+                                </Button>
+                            </right>
+                            <center>
+                                <VBox alignment="CENTER" minWidth="200.0" BorderPane.alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="statsName0" alignment="CENTER" contentDisplay="CENTER"
+                                               minWidth="200.0" text="Stat0" textFill="WHITE">
+                                            <VBox.margin>
+                                                <Insets bottom="35.0"/>
+                                            </VBox.margin>
+                                            <font>
+                                                <Font size="16.0"/>
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="statsFig0" alignment="CENTER" contentDisplay="CENTER" text="STAT"
+                                               textFill="WHITE">
+                                            <font>
+                                                <Font size="16.0"/>
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </VBox>
+                            </center>
+                        </BorderPane>
+                        <BorderPane minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0"
+                                    style="-fx-background-color: linear-gradient(to bottom left , #FF5A5F, #6a5acd) linear-gradient(to top right, #FF5A5F, #6a5acd);"
+                                    GridPane.halignment="CENTER" GridPane.hgrow="NEVER" GridPane.rowIndex="1"
+                                    GridPane.valignment="CENTER" GridPane.vgrow="NEVER">
+                            <left>
+                                <Button fx:id="prevButton2" alignment="CENTER" contentDisplay="CENTER" maxHeight="120.0"
+                                        maxWidth="50.0" minHeight="120.0" minWidth="30.0" mnemonicParsing="false"
+                                        onMouseClicked="#prevButton2" prefHeight="120.0" prefWidth="40.0"
+                                        style="-fx-background-color: TRANSPARENT;" text="&lt;" textAlignment="CENTER"
+                                        textFill="WHITE" BorderPane.alignment="CENTER">
+                                    <BorderPane.margin>
+                                        <Insets left="5.0"/>
+                                    </BorderPane.margin>
+                                    <font>
+                                        <Font name="System Bold" size="18.0"/>
+                                    </font>
+                                </Button>
+                            </left>
+                            <right>
+                                <Button fx:id="nextButton2" alignment="CENTER" contentDisplay="CENTER" maxHeight="120.0"
+                                        maxWidth="50.0" minHeight="120.0" minWidth="30.0" mnemonicParsing="false"
+                                        onMouseClicked="#nextButton2" prefHeight="120.0" prefWidth="40.0"
+                                        style="-fx-background-color: TRANSPARENT;" text="&gt;" textAlignment="CENTER"
+                                        textFill="WHITE" BorderPane.alignment="CENTER">
+                                    <BorderPane.margin>
+                                        <Insets right="5.0"/>
+                                    </BorderPane.margin>
+                                    <font>
+                                        <Font name="System Bold" size="18.0"/>
+                                    </font>
+                                </Button>
+                            </right>
+                            <center>
+                                <VBox alignment="CENTER" minWidth="200.0" BorderPane.alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="statsName2" alignment="CENTER" contentDisplay="CENTER"
+                                               minWidth="200.0" text="Stat2" textFill="WHITE">
+                                            <VBox.margin>
+                                                <Insets bottom="35.0"/>
+                                            </VBox.margin>
+                                            <font>
+                                                <Font size="16.0"/>
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="statsFig2" alignment="CENTER" contentDisplay="CENTER" text="STAT"
+                                               textFill="WHITE">
+                                            <font>
+                                                <Font size="16.0"/>
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </VBox>
+                            </center>
+                        </BorderPane>
+                        <BorderPane minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0"
+                                    style="-fx-background-color: linear-gradient(to top right, #FF5A5F, #6a5acd) linear-gradient(to top right, #FF5A5F, #6a5acd);"
+                                    GridPane.columnIndex="1">
+                            <left>
+                                <Button fx:id="prevButton1" alignment="CENTER" contentDisplay="CENTER" maxHeight="120.0"
+                                        maxWidth="50.0" minHeight="120.0" minWidth="30.0" mnemonicParsing="false"
+                                        onMouseClicked="#prevButton1" prefHeight="120.0" prefWidth="40.0"
+                                        style="-fx-background-color: TRANSPARENT;" text="&lt;" textAlignment="CENTER"
+                                        textFill="WHITE" BorderPane.alignment="CENTER">
+                                    <BorderPane.margin>
+                                        <Insets left="5.0"/>
+                                    </BorderPane.margin>
+                                    <font>
+                                        <Font name="System Bold" size="18.0"/>
+                                    </font>
+                                </Button>
+                            </left>
+                            <right>
+                                <Button fx:id="nextButton1" maxHeight="120.0" maxWidth="50.0" minHeight="120.0"
+                                        minWidth="30.0" mnemonicParsing="false" onMouseClicked="#nextButton1"
+                                        prefHeight="120.0" prefWidth="40.0" style="-fx-background-color: TRANSPARENT;"
+                                        text="&gt;" textFill="WHITE" BorderPane.alignment="CENTER">
+                                    <font>
+                                        <Font name="System Bold" size="18.0"/>
+                                    </font>
+                                </Button>
+                            </right>
+                            <center>
+                                <VBox alignment="CENTER" minWidth="200.0" BorderPane.alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="statsName1" alignment="CENTER" minWidth="200.0" text="Stat1"
+                                               textFill="WHITE">
+                                            <VBox.margin>
+                                                <Insets bottom="35.0"/>
+                                            </VBox.margin>
+                                            <font>
+                                                <Font size="16.0"/>
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="statsFig1" alignment="CENTER" text="STAT" textFill="WHITE">
+                                            <font>
+                                                <Font size="16.0"/>
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </VBox>
+                            </center>
+                        </BorderPane>
+                        <BorderPane minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0"
+                                    style="-fx-background-color: linear-gradient(to bottom right, #FF5A5F, #6a5acd) linear-gradient(to top left, #FF5A5F, #6a5acd);"
+                                    GridPane.columnIndex="1" GridPane.rowIndex="1">
+                            <left>
+                                <Button fx:id="prevButton3" alignment="CENTER" contentDisplay="CENTER" maxHeight="120.0"
+                                        maxWidth="50.0" minHeight="120.0" minWidth="30.0" mnemonicParsing="false"
+                                        onMouseClicked="#prevButton3" prefHeight="120.0" prefWidth="40.0"
+                                        style="-fx-background-color: TRANSPARENT;" text="&lt;" textAlignment="CENTER"
+                                        textFill="WHITE" BorderPane.alignment="CENTER">
+                                    <BorderPane.margin>
+                                        <Insets left="5.0"/>
+                                    </BorderPane.margin>
+                                    <font>
+                                        <Font name="System Bold" size="18.0"/>
+                                    </font>
+                                </Button>
+                            </left>
+                            <right>
+                                <Button fx:id="nextButton3" maxHeight="120.0" maxWidth="50.0" minHeight="120.0"
+                                        minWidth="30.0" mnemonicParsing="false" onMouseClicked="#nextButton3"
+                                        prefHeight="120.0" prefWidth="40.0" style="-fx-background-color: TRANSPARENT;"
+                                        text="&gt;" textFill="WHITE" BorderPane.alignment="CENTER">
+                                    <font>
+                                        <Font name="System Bold" size="18.0"/>
+                                    </font>
+                                </Button>
+                            </right>
+                            <center>
+                                <VBox alignment="CENTER" minWidth="200.0" BorderPane.alignment="CENTER">
+                                    <children>
+                                        <Label fx:id="statsName3" alignment="CENTER" minWidth="200.0" text="Stat3"
+                                               textFill="WHITE">
+                                            <VBox.margin>
+                                                <Insets bottom="35.0"/>
+                                            </VBox.margin>
+                                            <font>
+                                                <Font size="16.0"/>
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="statsFig3" alignment="CENTER" text="STAT" textFill="WHITE">
+                                            <font>
+                                                <Font size="16.0"/>
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </VBox>
+                            </center>
+                        </BorderPane>
+                    </children>
+                </GridPane>
+            </content>
+        </Tab>
+        <Tab closable="false" text="Bar Chart">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Pane fx:id="barChartPane" prefHeight="401.0" prefWidth="700.0"/>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

@@ -1,0 +1,24 @@
+.tab {
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: #FFFFFF;
+}
+
+.tab-pane *.tab-header-background {
+    -fx-background-color: transparent;
+    -fx-effect: innershadow(two-pass-box, rgba(0, 0, 0, 0.6), 4, 0.0, 0, 0);
+}
+
+.tab .tab-label {
+    -fx-background-color: transparent;
+}
+
+.tab:selected {
+    -fx-background-color: #FAFCFB;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-border-width: 3 0 0 0;
+    -fx-border-color: #ff5c61;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+

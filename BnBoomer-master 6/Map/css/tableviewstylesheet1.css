@@ -1,0 +1,23 @@
+.table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 30;
+    -fx-fill: white;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0 0 0 10 0;
+    -fx-padding: 0 0 10 0;
+}
+
+.table-view .column-header, .table-view.filler {
+    -fx-size: 40;
+    -fx-border-width: 0 0 10 0;
+    -fx-background-color: transparent;
+
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: black;
+}
