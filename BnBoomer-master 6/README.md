@@ -3,8 +3,10 @@
 ## Coursework 4: London Property Marketplace
 The BASE Property Viewer is a simple application that allows users to view and explore details of properties that are available to rent in London. 
 
-<img src="images/Screenshot 2020-03-28 at 10.22.29.jpg">
-<img src="images/Screenshot 2020-03-28 at 10.23.39.jpg">
+<img src="images/Screenshot 2020-03-28 at 10.22.29.jpg" width = 30%>
+<img src="images/Screenshot 2020-03-28 at 10.23.39.jpg"width = 30%>
+
+<img src="images/Screenshot 2020-03-28 at 10.22.40.jpg" width = 30%>
 ### Structure
 
 * Initial window upon running the application contains multiple panels.
